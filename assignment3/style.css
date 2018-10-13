@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: azure;
+    background: linear-gradient(Black, Darkred);
+}
+
+.image{
+    padding: 20px;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+h2{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    padding: 10px;
+}
+.list{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.links{
+    font-family: cursive;
+    padding: 10px;
+}
+
+.imageBorder{
+    border: 1px solid black;
+    box-shadow: 2px 2px 12px black;
+}
+
+.headings{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>my form</title>
+    </head>
+    <body>
+        <form id="form">
+                <label>Name:</label> <br>
+                <input type="text" id="name"><br>
+                <label>Email:</label><br>
+                <input type="text" id="email"><br><br>
+                <select id="dropdown" >
+                    <option value="freshmen">freshmen</option>
+                    <option value="sophmore">sophmore</option>
+                    <option value="junior">junior</option>
+                    <option value="senior">senior</option>
+                  </select>
+                  <p>
+                      What are your faviorite tv shows?
+                  </p>
+                  <div id="check"> 
+                        <input type="checkbox" name="tv show" value="The Simpsons"> The Simpsons<br>
+                        <input type="checkbox" name="tv show" value="Family Guy"> Family Guy<br>
+                        <input type="checkbox" name="tv show" value="The Walking Dead"> The Walking Dead<br>
+                        <input type="checkbox" name="tv show" value="Game of Thrones"> Game of Thrones<br>
+                  </div>
+                  
+                  <input type="submit" value="Submit" onclick ="aclick()">
+        </form>    
+    </body>
+
+    <script>
+    
+            function aclick(){
+                
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var dropdown = document.getElementById('dropdown').value;
+                var popup = "name: " + name + "\n" + "email: " + email + "\n" + "Class Standing: " + dropdown + "\n" + "Favorite Tv Shows: ";
+                
+                for(i = 0; i < form.length; i++){
+                    if(form[i].name ="tv show")  { 
+                        if(form[i].checked){
+                            if(j == 0){
+                                popup += (form[i].value + " ");
+                            } 
+                        }
+                    }
+                }
+
+                alert(popup);
+                
+            }
+            
+    </script>
+
+</html>
