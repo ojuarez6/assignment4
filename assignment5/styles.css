@@ -19,24 +19,6 @@ html, body{
     background: linear-gradient(black, darkred);
 }
 
-h2{
-    padding: 20px;
-    text-align : center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    color: darkblue;
-    text-transform: capitalize;
-}
-
-.video{
-    padding: 10px;
-    text-align: center;
-}
-
-.videoFrame{
-    border: 2px solid black;
-    box-shadow: 2px 2px 12px black;
-}
 ul{
     padding: 0px;
     margin: 0px;
